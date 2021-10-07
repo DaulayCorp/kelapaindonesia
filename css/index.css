@@ -51,6 +51,14 @@ nav a{
     margin-top: 1rem;
     font-size: 1.5rem;
 }
+@media only screen and (max-width: 575px) {
+    .hero .head .judul {
+        font-size: 2rem;
+    }
+    .hero .body .subjudul {
+        font-size: 1rem;
+    }
+}
 
 .who {
     margin-top: 6rem;
@@ -82,6 +90,11 @@ nav a{
 .who .body .deskripsi {
     font-weight: 500;
     text-align: center;
+}
+@media only screen and (max-width: 992px) {
+    .who .body {
+        margin: 0 0rem;
+    }
 }
 
 .product {
@@ -139,6 +152,12 @@ nav a{
 .certified .body {
     margin: auto 0;
 }
+@media only screen and (max-width: 768px) {
+    .certified .gambar img {
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+}
 
 .contact {
     padding: 5rem 0;
@@ -154,4 +173,9 @@ nav a{
 }
 .contact .box .body .subjudul {
     color: #77D970;
+}
+@media only screen and (max-width: 768px) {
+    .emailus {
+        margin-top: 3rem;
+    }
 }
